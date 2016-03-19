@@ -1,0 +1,724 @@
+ /*-------------------------------------------------
+GLOBALS CLASSES
+
+
+
+@import "blogs";
+-------------------------------------------------*/
+/* line 11, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+/* line 12, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+body {
+  background: url(../assets/blog/pattern-1.jpg);
+}
+
+/* line 14, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+p {
+  font-family: 'Ropa Sans', sans-serif;
+  color: #978e86;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+/* line 15, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+a {
+  text-decoration: none;
+  color: #cf9359;
+}
+
+/* line 16, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+a:hover {
+  text-decoration: none;
+  color: #978e86;
+}
+
+/* line 17, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+ul li {
+  list-style: none;
+  outline: none;
+}
+
+/* line 18, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+img {
+  border: none;
+}
+
+/* line 19, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+img {
+  border: none;
+}
+
+/* line 20, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+h1 {
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 26px;
+  color: #282623;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+/*-------------------------------------------------
+
+GENERAL CLASSES
+-------------------------------------------------*/
+/* line 26, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.panel {
+  overflow: hidden;
+}
+
+/* line 28, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.content {
+  overflow: hidden;
+  font-size: 14px;
+}
+
+/* line 30, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.button-link a {
+  font-family: 'Ropa Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 31, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.top-border {
+  border-top: 1px solid #dadacb;
+  margin: 20px 20px 14px 20px;
+}
+
+/* line 32, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.bottom-border {
+  border-top: 1px solid #dadacb;
+  margin: 14px;
+}
+
+/*-------------------------------------------------
+HEADER CLASSES
+-------------------------------------------------*/
+/* line 37, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.header {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* line 38, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.header-left-panel {
+  width: 560px;
+  float: left;
+}
+
+/* line 39, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.logo-wrap {
+  width: 300px;
+  height: 200px;
+  float: left;
+  background: #f3f3ee;
+  overflow: hidden;
+}
+
+/* line 40, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.logo {
+  width: 280px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 34px;
+}
+
+/* line 41, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.logo h2 {
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 18px;
+  color: #cf9359;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+/* line 42, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.logo h1 {
+  color: #50453b;
+  font-size: 42px;
+  padding-bottom: 22px;
+}
+
+/* line 43, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.header-right-panel {
+  width: 400px;
+  float: right;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+/* line 44, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.header-right-panel-top {
+  width: 280px;
+  float: right;
+}
+
+/* line 45, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.header-right-panel p {
+  color: #cf9359;
+  float: right;
+  font-size: 14px;
+  text-align: right;
+  font-weight: normal;
+}
+
+/* line 47, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.menu {
+  width: 400px;
+  float: left;
+  margin-top: 40px;
+}
+
+/* line 48, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.menu ul li {
+  float: left;
+  padding-bottom: 20px;
+  width: 120px;
+}
+
+/* line 49, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.menu ul li div {
+  display: block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  background: #414141;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 50, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.menu ul li div:hover {
+  background: white;
+  color: #282828;
+}
+
+/* line 51, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.menu ul li div.active {
+  background: green;
+  color: red;
+}
+
+/*-------------------------------------------------
+PANEL CLASSES
+-------------------------------------------------*/
+/* line 56, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.panel-wrap {
+  margin-left: 20px;
+  width: 372px;
+  background: url(/assets/blog/pattern-2.jpg);
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+/* line 60, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.panel-wrapper .title h1 {
+  color: #50453b;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  padding-top: 20px;
+}
+
+/* line 61, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.panel-wrapper .border {
+  border-bottom: 1px solid #dadacb;
+}
+
+/* line 62, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.panel-wrapper .content p {
+  padding-top: 15px;
+  height: 100px;
+}
+
+/* line 63, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.panel-wrapper .button-link {
+  margin-top: 20px;
+  background: url(/assets/blog/icon-more.png) no-repeat;
+  width: 16px;
+  height: 16px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+/*-------------------------------------------------
+TOP PANEL CLASSES
+-------------------------------------------------*/
+/* line 68, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.page-wrap {
+  width: 1251px;
+  margin-left: 20px;
+  background: url(/assets/blog/pattern-3.jpg);
+  overflow: hidden;
+}
+
+/* line 69, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.top-content {
+  width: 960px;
+  background: #f3f3ee;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/* line 70, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.top-content h1 {
+  padding-top: 26px;
+  padding-left: 20px;
+}
+
+/* line 71, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.top-content p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* line 72, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.top-content .button-link {
+  margin-left: 20px;
+  margin-top: 20px;
+  background: url(/assets/blog/icon-more.png) no-repeat;
+  width: 16px;
+  height: 16px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+/*-------------------------------------------------
+LAYOUT CLASSES
+-------------------------------------------------*/
+/* line 77, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.page-wrapper {
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+/* line 78, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content {
+  width: 630px;
+  float: left;
+  overflow: hidden;
+}
+
+/* line 79, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.sidebar {
+  width: 330px;
+  float: left;
+  overflow: hidden;
+}
+
+/* line 80, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.mid-panel .panel {
+  width: 580px;
+  overflow: hidden;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+/* line 81, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.panel .title h2 {
+  color: #cf9359;
+  font-size: 22px;
+  padding-top: 20px;
+  font-weight: normal;
+}
+
+/* line 82, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.content img {
+  float: left;
+}
+
+/* line 83, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.content p {
+  padding-bottom: 10px;
+}
+
+/*------------- ------------------------------------
+PRIMARY CONTENT CLASSS
+-------------------------------------------------*/
+/* line 87, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content .toppanel {
+  width: 100%;
+  background: url(/assets/blog/pattern-2.jpg);
+  overflow: hidden;
+}
+
+/* line 88, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content .container {
+  width: 590px;
+  margin: 0 auto;
+}
+
+/* line 89, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content .container h1 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+/* line 90, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content .container .border-bottom {
+  border-bottom: 1px solid #9e978b;
+}
+
+/* line 91, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content .container-wrap {
+  width: 295px;
+  float: left;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-right: 1px solid #9e978b;
+}
+
+/* line 93, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content .container-wrap.borderNone {
+  border-right: none;
+}
+
+/* line 94, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content .container-panel {
+  width: 275px;
+  margin-right: 20px;
+  border-bottom: 1px solid #9e978b;
+  overflow: hidden;
+}
+
+/* line 95, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content .container-panel.borderNone {
+  border-bottom: none;
+}
+
+/* line 96, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content .container-panel-left {
+  width: 42px;
+  float: left;
+}
+
+/* line 97, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content .container-panel-right {
+  width: 213px;
+  float: left;
+}
+
+/* line 98, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content .container-panel-right h3 {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+/* line 99, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content .container-panel-right p {
+  color: #e5e2d3;
+}
+
+/* line 100, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content .mid-panel {
+  width: 100%;
+  background: #f3f3ee;
+  float: left;
+  padding-bottom: 30px;
+}
+
+/* line 101, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content .mid-panel-content {
+  width: 580px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 30px;
+}
+
+/* line 103, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content .mid-panel-content h2 {
+  color: #cf9359;
+  font-size: 22px;
+  padding-top: 20px;
+  font-weight: normal;
+}
+
+/* line 104, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content .mid-panel-content p {
+  padding-top: 10px;
+}
+
+/* line 105, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content .border {
+  border-bottom: 1px solid #dadacb;
+  margin-top: 10px;
+}
+
+/* line 106, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.primary-content .img {
+  width: 180px;
+  margin-top: 30px;
+  float: left;
+}
+
+/*-------------------------------------------------
+SIDEBAR CLASSS
+-------------------------------------------------*/
+/* line 112, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.search-panel {
+  width: 100%;
+  background: #f3f3ee;
+  overflow: hidden;
+}
+
+/* line 113, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.search-panel .content {
+  width: 260px;
+  margin: 0 auto;
+  margin-top: 17px;
+}
+
+/* line 114, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.search-panel .content h2 {
+  font-size: 14px;
+  color: #cf9359;
+  padding-top: 10px;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+/* line 115, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.search-panel .title h1 {
+  color: #50453b;
+  font-weight: normal;
+}
+
+/* line 116, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.search-panel .border {
+  border-bottom: 1px solid #dadacb;
+  margin-top: 25px;
+}
+
+/* line 117, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.search-panel .searchbox {
+  width: 100%;
+}
+
+/* line 118, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.search-panel .input {
+  width: 200px;
+  height: 40px;
+  float: left;
+  background: #e5e2d3;
+  border: 0px;
+  font-size: 14px;
+  color: #978e86;
+  padding-left: 10px;
+}
+
+/* line 119, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.search-panel .button a {
+  width: 40px;
+  height: 40px;
+  float: right;
+  background: url(/assets/blog/icon-search.png) no-repeat center #cf9359;
+}
+
+/* line 122, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+div.img_blog {
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+/* line 130, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.midpanel {
+  width: 100%;
+  background: #f3f3ee;
+  overflow: hidden;
+}
+
+/* line 131, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.midpanel .content {
+  width: 260px;
+  padding-top: 0px;
+}
+
+/* line 132, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.midpanel h1 {
+  color: #50453b;
+  font-weight: normal;
+}
+
+/* line 133, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.midpanel .border {
+  border-bottom: 1px solid #dadacb;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+/* line 134, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.midpanel .content ul li {
+  display: block;
+  border-bottom: 1px solid #dadacb;
+  height: 39px;
+  line-height: 39px;
+}
+
+/* line 135, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.midpanel .content ul li.borderNone {
+  border-bottom: none;
+}
+
+/* line 136, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.midpanel .content ul li a {
+  background: url(/assets/blog/icon-arrow.png) no-repeat left;
+  padding-left: 25px;
+  font-weight: normal;
+  color: #978e86;
+}
+
+/* line 137, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.midpanel .content ul li a:hover {
+  color: #cf9359;
+}
+
+/* line 139, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.midpanel .container {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #dadacb;
+  margin-bottom: 20px;
+}
+
+/* line 140, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.midpanel .container.borderNone {
+  border-bottom: none;
+}
+
+/* line 141, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.midpanel .left {
+  width: 160px;
+  float: left;
+  margin-right: 20px;
+}
+
+/* line 142, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.midpanel .left h2 {
+  font-size: 14px;
+  font-weight: normal;
+  color: #cf9359;
+  padding-bottom: 14px;
+}
+
+/* line 143, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.midpanel .left p {
+  padding-bottom: 11px;
+}
+
+/* line 144, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.midpanel .img {
+  float: left;
+  width: 80px;
+}
+
+/*-------------------------------------------------
+TEXT
+-------------------------------------------------*/
+/* line 151, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+div .content {
+  text-align: justify;
+  padding: 15px;
+  text-indent: 10px;
+  letter-spacing: -1px;
+  line-height: 1.8;
+  font-family: "Times New Roman";
+  font-size: 10px;
+}
+
+/* line 154, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.p {
+  text-align: center;
+  color: #cf9359;
+  padding-bottom: 72px;
+}
+
+/* line 156, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+.blog_text {
+  color: green;
+}
+
+/* line 158, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+div.content_blog {
+  margin-top: 20px;
+}
+
+/* line 159, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+div.posting {
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+
+/* line 160, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+div.comment {
+  width: 620px;
+  color: white;
+}
+
+/* line 162, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+div.empty_posting {
+  height: 633px;
+}
+
+/* line 164, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+div.edit_posting {
+  text-align: justify;
+  letter-spacing: 0px;
+  line-height: 4;
+  font-family: "Times New Roman";
+  font-size: 10px;
+}
+
+/* line 166, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+div.comment {
+  margin: 35px;
+}
+
+/* line 168, /home/oleg/cinemalast/app/assets/stylesheets/blogs.scss */
+div.task-form {
+  width: 30px;
+}
+
+/* line 7, /home/oleg/cinemalast/app/assets/stylesheets/postings.scss */
+.field {
+  color: white;
+}
+
+/* line 10, /home/oleg/cinemalast/app/assets/stylesheets/postings.scss */
+.actions {
+  color: white;
+}
+
+/* line 13, /home/oleg/cinemalast/app/assets/stylesheets/postings.scss */
+div .posting_body {
+  padding-left: 45px;
+}
+
+/* line 15, /home/oleg/cinemalast/app/assets/stylesheets/postings.scss */
+div .insert_button {
+  padding-left: 45px;
+  padding-bottom: 10px;
+}
+
+/* line 17, /home/oleg/cinemalast/app/assets/stylesheets/postings.scss */
+div .field_text {
+  color: white;
+}
+
+/* line 19, /home/oleg/cinemalast/app/assets/stylesheets/postings.scss */
+div .field_body {
+  color: body;
+}

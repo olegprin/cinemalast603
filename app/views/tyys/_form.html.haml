@@ -1,0 +1,16 @@
+= form_for @tyy do |f|
+  - if @tyy.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@tyy.errors.count, "error")} prohibited this tyy from being saved:"
+      %ul
+        - @tyy.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :try
+    = f.text_field :try
+  .field
+    = f.label :ewqw
+    = f.text_field :ewqw
+  .actions
+    = f.submit 'Save'

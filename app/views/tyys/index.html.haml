@@ -1,0 +1,23 @@
+%h1 Listing tyys
+
+%table
+  %thead
+    %tr
+      %th Try
+      %th Ewqw
+      %th
+      %th
+      %th
+
+  %tbody
+    - @tyys.each do |tyy|
+      %tr
+        %td= tyy.try
+        %td= tyy.ewqw
+        %td= link_to 'Show', tyy
+        %td= link_to 'Edit', edit_tyy_path(tyy)
+        %td= link_to 'Destroy', tyy, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Tyy', new_tyy_path
